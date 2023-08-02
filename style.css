@@ -1,0 +1,177 @@
+body{
+    background: #28282B;
+    color: white;
+    min-width: 100vw;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+}
+
+nav{
+    display:flex;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: flex-end;
+    padding: 20px;
+}
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.dots {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.acceder {
+    background: #85abdd;
+    color: #262525;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 9px 23px;
+    text-decoration: none;
+}
+
+
+.logo {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.barra{
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    background: transparent;
+    border: solid 1px #999da2;
+    border-radius: 20px;
+    box-sizing: border-box; 
+}
+
+.buscador {
+    /*Jony, no pude lograr que el buscador ocupe toda la barra y no quede como un elemento aparte que tiene un border cuando lo cliqueas, probé un montón de cosas, pero todo desacomoda algo mas, ja!*/
+    display: inline;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    padding: 8 px;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border-color:transparent;
+    width: 80%;
+ }
+
+.buscador:hover{
+    border-color:transparent;
+    background: #3a3b3e;
+}
+.barra:hover{
+    border-color:transparent;
+    background: #3a3b3e;
+}
+
+.lupa {
+    width: 18px;
+    height: 18px;
+    float: left;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+
+.icono-voz{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    padding-bottom: 5px;
+    float: inline-end;
+}
+
+.icono-lens{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    float: inline-end;
+    
+}
+
+.botones {
+    display: flex;
+    justify-content: center;  
+    margin-top: 20px;  
+}
+.btn {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.btn:hover {
+    border: solid 1px #999da2;
+}
+
+.idioma {
+    display: flex;
+    justify-content: center; 
+    font-size: 12px;
+}
+
+.idioma a{
+    color: #8ab4f8;
+    text-decoration: none;
+}
+.idioma a:hover {
+    text-decoration: underline;
+}
+
+.pie {
+    width: 98%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background: #1a1a1a;
+    color: #999da2;
+}
+
+.pie a {
+    display: inline-block;
+    text-decoration: none;
+    color: #999da2;
+    margin-right: 15px;
+}
+
+.pie a:hover{
+    text-decoration: underline;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+/*Acá, no se xq, el footer-right se me fue al renglón de abajo..*/
+.footer-right {
+    display: flex;
+    justify-content: flex-end;  
+}
+
