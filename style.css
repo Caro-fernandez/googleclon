@@ -45,7 +45,7 @@ nav a:hover {
 
 .logo {
     display: flex;
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: center;
 }
 
@@ -116,13 +116,15 @@ nav a:hover {
     border-radius: 4px;
     color: #e8eaed;
     font-family: arial,sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     margin: 11px 4px;
-    padding: 0 16px;
+    padding: 5px;
     line-height: 27px;
-    height: 36px;
-    min-width: 54px;
+    height: 28px;
+    min-width: 66px;
     text-align: center;
+    text-decoration: none;
+   
 }
 
 .btn:hover {
